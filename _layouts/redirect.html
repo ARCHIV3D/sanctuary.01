@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<!--
+	Code by eireen.sanctuary.rollplay.eu.org | HRP: NotABoy (Lou) | RP: {{ site.aname }}
+-->
+    <!-- @layouts -->
+<html prefix="og: https://ogp.me/ns#" lang="fr-FR">
+	<head>
+	<!-- @meta-seo -->
+		<meta charset="utf-8" />
+		<title>(HRP) {{ page.title }}{{ site.aname }}</title>
+{% include meta-seo.html %}
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />	
+		<link rel="icon" type="image/png" href="/assets/img/favicon/001.png">
+    <meta http-equiv="refresh" content="0;URL={{ page.redirect }}">
+	</head>
+<body class="{{ page.bodyclass }}">
+  <p>Redirection sur <a href="{{ page.redirect }}">{{ page.redirect }}</a></p>
+  <script>window.location.href = "{{ page.redirect }}";</script>
+</body>
+<html>
